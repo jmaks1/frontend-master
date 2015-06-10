@@ -1,0 +1,39 @@
+// set path for icons
+$icon-font-path: "fonts/bootstrap/";
+// include bootstrap sass
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+// include variables
+@import "partials/variables";
+// include sprite
+@import "partials/sprite";
+// include mixin
+@import "partials/mixin";
+// include fonts
+@import "partials/fonts";
+
+body {
+	font-family: "Segoe", sans-serif;
+	color:$color-egg;
+}
+
+
+/* custom styles
+-----------------------------*/
+
+.logo {
+	@include sprite($s-krayt);
+	margin:0 15px -5px 0;
+}
+
+/* header styles
+-----------------------------*/
+
+
+/* content styles
+-----------------------------*/
+
+
+/* footer styles
+-----------------------------*/
